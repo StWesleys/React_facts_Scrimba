@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+max-width: 550px;
+color: white;
+background: #21222A;
+height: 91px;
+}
+
+.navbar h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DEEBF8;
+  
+  margin: 27px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+
+.logo span::before{
+  content: url('C:\Users\Júlia\Desktop\React\react_facts\React_facts_Scrimba\src\images\logo.svg');
+}
+
+/*Main*/
+.main_content{
+  background-color: #282D35;
+  padding: 25px;
+  height: 459px;
+  max-width: 550px;
+  max-height: 460px;
+
+  color: white;
+
+  background-image: url('C:\Users\Júlia\Desktop\React\react_facts\React_facts_Scrimba\src\images\reactjs-icon.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main_title{
+    font-size: 39px;
+    height: 41px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+}
+
+.main_list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px;
+    
+    width: 390px;
+}
+
+.main_list li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
