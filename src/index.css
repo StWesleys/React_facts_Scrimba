@@ -40,10 +40,6 @@ height: 91px;
 }
 
 
-.logo span::before{
-  content: url('C:\Users\Júlia\Desktop\React\react_facts\React_facts_Scrimba\src\images\logo.svg');
-}
-
 /*Main*/
 .main_content{
   background-color: #282D35;
